@@ -19,6 +19,11 @@ epoch = 2.5
 path = 'contracts/user_ID.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.vote_expiry]
+path = 'contracts/vote_expiry.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
