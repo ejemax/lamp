@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.delegate_withdrawal_wallet]
+path = 'contracts/delegate_withdrawal_wallet.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.file_backup]
 path = 'contracts/file_backup.clar'
 clarity_version = 2
